@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* navbar */
+.navbar {
+    border: 0;
+    border-radius: 3px;
+    padding: .625rem 0;
+    margin-bottom: 20px;
+    color: #555;
+    background-color: #fff;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15) !important;
+    z-index: 1000 !important;
+    transition: all 150ms ease 0s;
+    }
+
+.navbar.navbar-name {
+    z-index: 1030;
+    background-color: transparent;
+    box-shadow: none;
+    padding-top: 25px;
+    color: #fff;
+    }
+ 
+.navbar .navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: inherit;
+    padding: .9375rem;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: 20px;
+    }
+
+/* profile */
+.h6, h6 {
+    font-size: .75rem !important;
+    font-weight: 500;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    }
+
+.name h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+.profile {
+    margin-top: 100px;
+}
+    
+.profile img {
+    max-width: 25%;
+    width: 100%;
+    margin: auto;
+    display: block;
+    }
+    
+.rounded-circle {
+        border-radius: 50%!important;
+    }
+    
+.title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color: #3C4858;
+    font-weight: 700;
+    font-family: "Roboto Slab","Times New Roman",serif;
+    }
+
+a .btn .btn-just-icon {
+    vertical-align: middle;
+    }
+    
+.profile-page .description {
+    text-align: center;
+    margin: 1.071rem auto 0;
+    max-width: 600px;
+    color: #999;
+    font-weight: 300;
+    }
+    
+.description p {
+    font-size: 14px;
+    margin: 0 0 10px;
+    }
+
+table {
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+}
+
+/*project*/
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.card {
+    width: 48%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 15px;
+    background-color:#FFF;
+    float: left;
+}
+
+.card img{
+    width:100%;
+}
+
+.card-text .card-title {
+    text-align: center;
+}
+
+/*contact*/
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+    width: 100%;
+	}
+
+
+/* footer */
+footer{
+    background-color: rgb(173, 172, 172);
+    margin-top: 10px;
+    color: #555;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.footer p{
+    color: black;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
