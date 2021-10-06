@@ -1,0 +1,32 @@
+body {
+background-color: rgb(24, 11, 24);
+}
+
+input{
+    width: 75%;
+    margin-left: 8%;
+    height: 1cm;
+    font-size: 14pt;
+    border-color: white
+}
+
+#btn-add-item{
+    height: 1cm;
+}
+
+label{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+}
+
+ul{
+    margin-left: 6%;
+    font-size: 14pt;
+}
+
+.title-color {
+    margin-top: 20px;
+    color: wheat;
+}
